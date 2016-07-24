@@ -1,6 +1,6 @@
-#	Create plot 1 using ds_filter data set
+#	Create plot 2 using ds_filter data set
 
-plot(ds_filter$datetime,ds_filter$Global_active_power, xlab="", ylab="Global Active Power (kilowatts)", type = "l")
+with(ds_filter, plot(datetime,Global_active_power, xlab="", ylab="Global Active Power (kilowatts)", type = "l"))
 
 #	Copy png to current working directory
 
